@@ -7,4 +7,5 @@ f=[]
 for i in h:
     for j in i:
         f.append(j)
+f=sorted(f)
 print(*f)
