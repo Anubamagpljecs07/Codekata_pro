@@ -1,3 +1,4 @@
+#ganu
 a=input()
 g=""
 f=[]
