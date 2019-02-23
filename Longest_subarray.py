@@ -6,7 +6,7 @@ for i in range(0,len(l)):
 	if i<=len(l)-1 and i>1:
 		if l[i]>l[i-1]:
 			c+=1
-		elif l[i]<l[i-1]:
+		elif l[i]<=l[i-1]:
 			g.append(c)
 			c=1
 		if i==len(l)-1:
