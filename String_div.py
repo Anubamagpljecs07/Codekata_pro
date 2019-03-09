@@ -1,4 +1,8 @@
 a=input()
 b=input()
 g=b.count(a)
-print(g)
+h=a.count(b)
+if g==0:
+	print(h)
+else:
+	print(g)
